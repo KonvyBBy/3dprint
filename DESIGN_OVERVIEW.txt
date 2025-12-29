@@ -1,0 +1,53 @@
+AUSTIN KEYCHAIN - DESIGN OVERVIEW
+═══════════════════════════════════════════════════════
+
+┌─────────────────────────────────────────────────┐
+│                                                 │
+│  ┌─┐  │  │  ┌─┐  ┌─┐  │  ┌┐  ┌┐             ○  │  ← Keyring hole (5mm)
+│  ├─┤  │  │  └─┐  ├─   │  ││  │├─┐              │
+│  ┴ ┴  └──┘  └─┘  └─┘  │  └┘  ┴ ┴              │
+│  A    U     S    T    I   N                     │
+│                                                 │
+└─────────────────────────────────────────────────┘
+    ← 50mm total length →
+
+    ↑
+    20mm
+    width
+    ↓
+
+DIMENSIONS:
+- Total length: 50mm
+- Width: 20mm  
+- Base thickness: 3mm
+- Text height: 1mm above base (total 4mm height)
+- Keyring hole: 5mm diameter, positioned 5mm from right edge
+
+FEATURES:
+✓ Clean rectangular shape
+✓ Embossed "AUSTIN" text (raised 1mm)
+✓ Functional keyring hole
+✓ No supports needed for printing
+✓ Optimized for FDM and resin 3D printers
+
+TECHNICAL SPECS:
+- Format: STL (binary)
+- Triangles: 360
+- Vertices: 206
+- Volume: ~3,065 mm³
+- Surface Area: ~2,923 mm²
+
+PRINT ORIENTATION:
+Lay flat on build plate with text facing UP:
+
+    ┌─────────────┐
+    │   AUSTIN    │ ← Text side up
+    └─────────────┘
+    ═══════════════  ← Build plate
+
+MATERIALS:
+- PLA (recommended for beginners)
+- PETG (more durable)
+- ABS (heat resistant)
+- Resin (finest detail)
+
