@@ -1,8 +1,55 @@
-# Austin Keychain - 3D Printable Design
+# 3D Printable Designs
 
+A collection of custom 3D printable designs optimized for FDM and resin printers.
+
+## Available Designs
+
+### 1. Bulls Basketball Chicago Chain Pendant
+A multi-color Bulls-themed pendant with separate color layers for easy filament changes during printing.
+
+**[→ View Bulls Pendant Documentation](BULLS_PENDANT_README.md)**
+
+### 2. Austin Keychain
 A customized 3D printable keychain featuring the text "Austin" in a clean, modern design.
 
-## Design Specifications
+---
+
+## Bulls Basketball Chicago Chain Pendant
+
+### Quick Start
+```bash
+# Generate the pendant STL files
+python3 generate_bulls_pendant.py
+```
+
+### Features
+- **Multi-color support**: Separate layers for BLACK, RED, and WHITE
+- **Bulls logo**: Stylized bull head with horns, face, and details
+- **Chain attachment**: Built-in loop for necklace chains
+- **Layer heights**: 
+  - Black (0-1mm) - Base and chain loop
+  - Red (1-2mm) - Bulls logo elements  
+  - White (2-3mm) - "BULLS" text and details
+
+### Files
+- `bulls_pendant_combined.stl` - Complete pendant (use for printing)
+- `bulls_pendant_black_layer.stl` - Black layer only
+- `bulls_pendant_red_layer.stl` - Red layer only
+- `bulls_pendant_white_layer.stl` - White layer only
+- `generate_bulls_pendant.py` - Generator script
+- `BULLS_PENDANT_README.md` - Detailed documentation
+
+### Print Settings
+- **Pause Points**: 1.0mm (change to RED), 2.0mm (change to WHITE)
+- **Layer Height**: 0.1-0.2mm
+- **Infill**: 100% recommended
+- **Time**: 45-90 minutes
+
+---
+
+## Austin Keychain
+
+### Design Specifications
 
 - **Dimensions:** 50mm × 20mm × 3mm (base thickness)
 - **Text:** "AUSTIN" embossed 1mm above the surface
@@ -10,11 +57,10 @@ A customized 3D printable keychain featuring the text "Austin" in a clean, moder
 - **Style:** Modern, geometric text design
 - **Format:** STL (binary)
 
-## Files
+### Files
 
 - `austin_keychain.stl` - Ready-to-print STL file
 - `generate_keychain_final.py` - Python script to generate the STL file
-- `README.md` - This documentation file
 
 ## 3D Printing Guidelines
 
