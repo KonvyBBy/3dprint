@@ -260,10 +260,10 @@ def create_bulls_pendant():
     try:
         chain_loop = loop_structure.difference(loop_hole, engine='manifold')
         print(f"✓ Chain attachment loop with {loop_hole_diameter}mm hole created")
-    except:
+    except Exception as e:
         # If boolean operation fails, use simple concatenation
         chain_loop = loop_structure
-        print(f"✓ Chain attachment loop created (hole approximated)")
+        print(f"✓ Chain attachment loop created (hole approximated, manifold operation skipped: {e})")
     
     # ========================
     # COMBINE ALL LAYERS
@@ -281,7 +281,8 @@ def create_bulls_pendant():
         try:
             mesh.merge_vertices()
             trimesh.repair.fix_normals(mesh)
-        except:
+        except Exception:
+            # Skip mesh optimization if it fails
             pass
     
     print("\n" + "=" * 60)
