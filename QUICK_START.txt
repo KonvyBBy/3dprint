@@ -1,0 +1,84 @@
+BULLS PENDANT - QUICK START GUIDE
+═══════════════════════════════════════════════════════════════
+
+⚡ FASTEST WAY TO PRINT YOUR BULLS PENDANT ⚡
+
+STEP 1: DOWNLOAD
+───────────────────────────────────────────────────────────────
+📥 Get the file: bulls_pendant_combined.stl
+
+STEP 2: SLICE
+───────────────────────────────────────────────────────────────
+🔪 Import into your slicer (PrusaSlicer, Cura, Simplify3D, etc.)
+
+⚙️  QUICK SETTINGS:
+   • Layer Height: 0.2mm (fast) or 0.1mm (quality)
+   • Infill: 100%
+   • Supports: OFF (not needed!)
+   • Brim: ON (5mm)
+
+🛑 ADD PAUSES:
+   At 1.0mm → Change BLACK to RED
+   At 2.0mm → Change RED to WHITE
+
+STEP 3: PRINT
+───────────────────────────────────────────────────────────────
+🖨️  Load BLACK filament → Start print
+⏸️  At 1mm: Pause → Load RED → Resume
+⏸️  At 2mm: Pause → Load WHITE → Resume
+✅ Done! (~45-90 minutes total)
+
+STEP 4: WEAR
+───────────────────────────────────────────────────────────────
+🔗 Thread your chain through the 3mm hole
+👕 Wear with pride! Go Bulls! 🏀
+
+═══════════════════════════════════════════════════════════════
+
+NEED MORE HELP?
+• Full instructions: BULLS_PENDANT_PRINTING_GUIDE.txt
+• Design details: BULLS_PENDANT_README.md
+• Visual specs: BULLS_PENDANT_DESIGN_SPECS.txt
+
+═══════════════════════════════════════════════════════════════
+
+ESSENTIAL INFO:
+
+Size: 35mm diameter, 3mm thick
+Colors: BLACK (0-1mm) → RED (1-2mm) → WHITE (2-3mm)
+Print Time: 45-90 minutes
+Material: PLA recommended
+Chain: Up to 2.5mm thick
+
+═══════════════════════════════════════════════════════════════
+
+RECOMMENDED FILAMENT COLORS:
+
+Bulls Red:   #CE1141 (official Bulls color)
+Jet Black:   #000000
+Pure White:  #FFFFFF
+
+Try these brands:
+• Hatchbox PLA (True Red, True Black, True White)
+• eSun PLA+ (Fire Engine Red)
+• Prusament PLA (Prusa Red, Jet Black)
+
+═══════════════════════════════════════════════════════════════
+
+TROUBLESHOOTING QUICK FIXES:
+
+❌ Not sticking?
+   → Clean bed, add brim, increase bed temp to 60°C
+
+❌ Colors mixing?
+   → Purge 100mm of new filament when changing colors
+
+❌ Warping?
+   → Use larger brim (8mm), increase bed temp
+
+❌ Weak loop?
+   → Print at 100% infill, use PETG instead of PLA
+
+═══════════════════════════════════════════════════════════════
+                    LET'S GO BULLS! 🏀🔴⚫⚪
+═══════════════════════════════════════════════════════════════

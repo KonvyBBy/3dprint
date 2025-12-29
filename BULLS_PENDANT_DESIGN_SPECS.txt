@@ -1,0 +1,280 @@
+BULLS PENDANT DESIGN VISUALIZATION
+═══════════════════════════════════════════════════════════════
+
+TOP VIEW (looking down at pendant):
+═══════════════════════════════════════════════════════════════
+
+                            ╭─────╮
+                            │  ○  │  ← Chain loop (3mm hole)
+                            └──┬──┘
+                     ╭──────────┴──────────╮
+                   ╱                         ╲
+                 ╱       ╭───╮   ╭───╮       ╲  ← Horns (RED)
+                │       ╱     ╲ ╱     ╲       │
+                │      ●       ●       ●      │ ← Ears (RED)
+                │                             │
+                │         👁️      👁️         │ ← Eyes (WHITE)
+                │           ╭─────╮           │
+                │           │ ●  ● │           │ ← Nostrils (WHITE)
+                │           ╰─────╯           │ ← Bull face (RED)
+                │                             │
+                │      B U L L S              │ ← Text (WHITE)
+                │                             │
+                 ╲                           ╱
+                   ╲                       ╱
+                     ╰───────────────────╯
+                     
+                     ← 35mm diameter →
+
+SIDE VIEW (cross-section showing layers):
+═══════════════════════════════════════════════════════════════
+
+    Chain Loop
+       ↓
+      ┌───┐
+      │   │ 6mm
+      └─┬─┘
+    ╔═══╧═══╗
+3mm ║▓▓▓▓▓▓▓║ ← WHITE layer (text & details) 2-3mm
+    ╠═══════╣
+2mm ║███████║ ← RED layer (Bulls logo) 1-2mm
+    ╠═══════╣
+1mm ║███████║ ← BLACK layer (base + loop) 0-1mm
+    ╚═══════╝
+     Build plate
+
+LAYER BREAKDOWN:
+═══════════════════════════════════════════════════════════════
+
+BLACK LAYER (0-1mm):
+┌────────────────────────────────────────────────────┐
+│ • Circular base (35mm diameter)                    │
+│ • Chain attachment structure                        │
+│ • Foundation for all other layers                  │
+│ • Provides structural integrity                    │
+│ • Color: BLACK (#000000)                           │
+│ • Print first - no pause needed                    │
+└────────────────────────────────────────────────────┘
+
+RED LAYER (1-2mm):
+┌────────────────────────────────────────────────────┐
+│ • Stylized bull head                               │
+│   - Two horns at top (curved cylinders)            │
+│   - Central face (large circle)                    │
+│   - Two ears on sides (medium circles)             │
+│   - Snout at bottom (circle)                       │
+│ • Bulls logo main elements                         │
+│ • Color: RED (#CE1141 - Bulls red)                │
+│ • PAUSE at 1mm to change from BLACK to RED         │
+└────────────────────────────────────────────────────┘
+
+WHITE LAYER (2-3mm):
+┌────────────────────────────────────────────────────┐
+│ • "BULLS" text (5 letters)                         │
+│   - Geometric block letters                        │
+│   - Positioned below bull face                     │
+│ • Detail accents:                                  │
+│   - Two eyes (small circles on face)               │
+│   - Two nostrils (tiny circles on snout)           │
+│ • Color: WHITE (#FFFFFF)                           │
+│ • PAUSE at 2mm to change from RED to WHITE         │
+└────────────────────────────────────────────────────┘
+
+3D PERSPECTIVE VIEW:
+═══════════════════════════════════════════════════════════════
+
+              ╱╲
+             │○│  ← Loop extends upward (6mm tall)
+             └┬┘
+        ╭─────┴─────╮
+       ╱             ╲
+      │  ┌─╮   ┌─╮   │  ← Horns in RED
+      │ ●   ● ●   ● │  ← Ears in RED  
+      │               │
+      │   👁️     👁️   │  ← Eyes in WHITE
+      │    ╭───╮     │  ← Face in RED
+      │    │● ●│     │  ← Nostrils in WHITE
+      │    ╰───╯     │  ← Snout in RED
+      │               │
+      │   BULLS       │  ← Text in WHITE
+       ╲             ╱
+        ╰───────────╯
+         ▓▓▓▓▓▓▓▓▓▓▓  ← 3mm thick pendant
+
+COMPONENT DETAILS:
+═══════════════════════════════════════════════════════════════
+
+PENDANT BODY:
+• Shape: Circular
+• Diameter: 35mm (1.38 inches)
+• Thickness: 3mm (0.12 inches)
+• Weight: ~2.2g in PLA
+• Print time: 45-90 minutes
+
+CHAIN ATTACHMENT LOOP:
+• Width: 4mm
+• Height: 6mm above pendant
+• Thickness: 2mm
+• Hole diameter: 3mm (fits 2.5mm chains)
+• Design: Rectangular base + ring top
+• Integrated with black layer for strength
+
+BULLS LOGO ELEMENTS:
+• Horns: 3mm radius circles, positioned at top
+• Face: 8mm radius central circle
+• Ears: 2.5mm radius circles on sides
+• Snout: 5mm radius circle at bottom
+• All rendered in RED layer
+
+TEXT ELEMENTS:
+• "BULLS" in geometric block font
+• Letter height: 4mm
+• Stroke width: 0.8mm
+• Positioned below bull face
+• Rendered in WHITE layer
+
+DETAIL ACCENTS:
+• Eyes: 0.8mm radius, on face (WHITE)
+• Nostrils: 0.5mm radius, on snout (WHITE)
+• Add realism and visual interest
+
+COLOR SPECIFICATIONS:
+═══════════════════════════════════════════════════════════════
+
+Official Chicago Bulls Colors:
+┌──────────┬──────────┬────────────────────────┐
+│ Color    │ Hex Code │ Filament Suggestions   │
+├──────────┼──────────┼────────────────────────┤
+│ BLACK    │ #000000  │ True Black, Jet Black  │
+│ RED      │ #CE1141  │ Bulls Red, True Red    │
+│ WHITE    │ #FFFFFF  │ Pure White, Snow White │
+└──────────┴──────────┴────────────────────────┘
+
+PRINT ORIENTATION:
+═══════════════════════════════════════════════════════════════
+
+CORRECT (as designed):
+    ┌─────────┐
+    │ PENDANT │  ← Text faces UP
+    │ ○ Bulls │
+    └─────────┘
+    ═══════════  ← Build plate
+
+• Lay flat on build plate
+• No rotation needed
+• Text/design faces up
+• Chain loop extends upward
+• No supports required
+• First layer critical for adhesion
+
+DIMENSIONS COMPARISON:
+═══════════════════════════════════════════════════════════════
+
+Pendant size relative to common objects:
+
+┌────────────────┬─────────┬────────────────────┐
+│ Object         │ Size    │ Comparison         │
+├────────────────┼─────────┼────────────────────┤
+│ Quarter (US)   │ 24.3mm  │ Pendant is larger  │
+│ Half Dollar    │ 30.6mm  │ Pendant is larger  │
+│ This Pendant   │ 35mm    │ ← Perfect size!    │
+│ Ping Pong Ball │ 40mm    │ Pendant is smaller │
+└────────────────┴─────────┴────────────────────┘
+
+• Not too small (clearly visible)
+• Not too large (comfortable to wear)
+• Ideal pendant size for necklace
+
+LAYER HEIGHT CALCULATIONS:
+═══════════════════════════════════════════════════════════════
+
+At 0.1mm layer height:
+• Black layer: Layers 1-10 (1mm total)
+• Red layer: Layers 11-20 (1mm total)
+• White layer: Layers 21-30 (1mm total)
+• Total: 30 layers, ~60-90 minutes
+
+At 0.2mm layer height:
+• Black layer: Layers 1-5 (1mm total)
+• Red layer: Layers 6-10 (1mm total)
+• White layer: Layers 11-15 (1mm total)
+• Total: 15 layers, ~35-50 minutes
+
+PAUSE LAYER CALCULATIONS:
+┌──────────────┬─────────┬─────────┬────────────┐
+│ Layer Height │ Pause 1 │ Pause 2 │ Total Time │
+├──────────────┼─────────┼─────────┼────────────┤
+│ 0.10mm       │ Layer 10│ Layer 20│ 60-90 min  │
+│ 0.15mm       │ Layer 7 │ Layer 13│ 45-70 min  │
+│ 0.20mm       │ Layer 5 │ Layer 10│ 35-50 min  │
+└──────────────┴─────────┴─────────┴────────────┘
+
+FILE INFORMATION:
+═══════════════════════════════════════════════════════════════
+
+bulls_pendant_combined.stl:
+• Use this for multi-color printing
+• Contains all three layers
+• Total faces: 1,908 triangles
+• Volume: 2,156.47 mm³
+• File size: 94 KB
+
+Individual layer files (optional):
+• bulls_pendant_black_layer.stl (492 triangles, 25 KB)
+• bulls_pendant_red_layer.stl (1,024 triangles, 51 KB)
+• bulls_pendant_white_layer.stl (392 triangles, 20 KB)
+
+DESIGN PHILOSOPHY:
+═══════════════════════════════════════════════════════════════
+
+✓ Simplified Bulls Logo
+  - Recognizable without being overly complex
+  - Printable without fine details or supports
+  - Stylized for pendant aesthetics
+
+✓ Clear Color Separation
+  - Each color at distinct 1mm height increment
+  - Easy to pause at whole millimeter marks
+  - No overlapping colors
+
+✓ Structural Integrity
+  - Chain loop integrated into base layer
+  - 100% infill recommended for strength
+  - No weak points or thin sections
+
+✓ Print-Friendly Design
+  - No overhangs requiring supports
+  - Optimal layer adhesion
+  - Clean geometry for slicing
+
+✓ Wearable Size
+  - 35mm: Large enough to see, small enough to wear
+  - Lightweight: ~2.2g won't cause discomfort
+  - Professional appearance
+
+TECHNICAL SPECIFICATIONS:
+═══════════════════════════════════════════════════════════════
+
+Geometry:
+• Manifold: Yes (watertight mesh)
+• Self-intersections: None
+• Degenerate faces: None
+• Duplicate vertices: Removed
+• Normal orientation: Correct
+
+Mesh Quality:
+• All faces: Properly oriented
+• All normals: Pointing outward
+• All edges: Connected properly
+• Vertex count: 1,007
+• Triangle count: 1,908
+
+File Format:
+• Type: STL Binary
+• Endianness: Little-endian
+• Unit: Millimeters
+• Generated: Python + Trimesh library
+
+═══════════════════════════════════════════════════════════════
+                    READY TO PRINT! 🏀
+═══════════════════════════════════════════════════════════════

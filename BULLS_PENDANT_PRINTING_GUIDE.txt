@@ -1,0 +1,300 @@
+BULLS BASKETBALL CHICAGO CHAIN PENDANT - PRINTING GUIDE
+═══════════════════════════════════════════════════════════════
+
+                          ╭─────╮
+                          │  ○  │  ← Chain attachment loop (3mm hole)
+                          └──┬──┘
+                     ╭───────┴───────╮
+                    ╱                 ╲
+                   │   🐂  BULLS  🐂   │  ← 35mm diameter pendant
+                    ╲                 ╱
+                     ╰───────────────╯
+
+LAYER STRUCTURE (Side View):
+═══════════════════════════════════════════════════════════════
+
+3.0mm ┌─────────────────────┐ ← WHITE LAYER (Text & Details)
+      │   BULLS  👁️ 👁️     │
+2.0mm ├─────────────────────┤ ← PAUSE HERE - Change to WHITE
+      │   🐂 Bulls Logo 🐂  │ ← RED LAYER
+1.0mm ├─────────────────────┤ ← PAUSE HERE - Change to RED  
+      │   ████ BASE ████    │ ← BLACK LAYER (Base + Chain Loop)
+0.0mm └─────────────────────┘ ← Build Plate
+
+═══════════════════════════════════════════════════════════════
+STEP-BY-STEP PRINTING INSTRUCTIONS
+═══════════════════════════════════════════════════════════════
+
+PREPARATION:
+───────────────────────────────────────────────────────────────
+1. ✓ Download: bulls_pendant_combined.stl
+2. ✓ Clean build plate thoroughly with isopropyl alcohol
+3. ✓ Level bed if needed
+4. ✓ Load BLACK filament
+5. ✓ Prepare RED and WHITE filament nearby
+
+SLICING:
+───────────────────────────────────────────────────────────────
+6. Import bulls_pendant_combined.stl into your slicer
+7. Orient: Lay flat (already correct orientation)
+8. Set up PAUSE POINTS at:
+   • 1.0mm layer height (for RED change)
+   • 2.0mm layer height (for WHITE change)
+
+SLICER-SPECIFIC PAUSE SETUP:
+
+┌─ PrusaSlicer / SuperSlicer ──────────────────────────────────┐
+│ 1. Look at the layer slider on the right                      │
+│ 2. Find the layer at 1.0mm height                            │
+│ 3. Right-click → "Add pause print (M601)"                    │
+│ 4. Repeat for 2.0mm layer                                    │
+│ 5. Export G-code                                             │
+└────────────────────────────────────────────────────────────────┘
+
+┌─ Cura ────────────────────────────────────────────────────────┐
+│ 1. Extensions → Post Processing → Modify G-Code              │
+│ 2. Add script: "Pause at height"                             │
+│ 3. Set Pause Height: 1.0mm                                   │
+│ 4. Add another "Pause at height" script                      │
+│ 5. Set Pause Height: 2.0mm                                   │
+│ 6. Slice and save                                            │
+└────────────────────────────────────────────────────────────────┘
+
+┌─ Simplify3D ──────────────────────────────────────────────────┐
+│ 1. Edit Process Settings → Scripts tab                        │
+│ 2. Layer change script section                               │
+│ 3. Add: "if [LAYER] == 5 then G-code: M600" (adjust layer #) │
+│ 4. Add: "if [LAYER] == 10 then G-code: M600" (adjust layer #)│
+│ 5. Note: Layer numbers depend on layer height                │
+└────────────────────────────────────────────────────────────────┘
+
+RECOMMENDED SETTINGS:
+───────────────────────────────────────────────────────────────
+┌─────────────────────┬─────────────┬──────────────────────────┐
+│ Setting             │ Value       │ Notes                    │
+├─────────────────────┼─────────────┼──────────────────────────┤
+│ Layer Height        │ 0.1-0.2mm   │ 0.1mm = best quality     │
+│ Infill              │ 100%        │ For strength & weight    │
+│ Wall Count          │ 3-4         │ Strong perimeters        │
+│ Top/Bottom Layers   │ 5           │ Solid surfaces           │
+│ Print Speed         │ 40-50mm/s   │ Slower = better quality  │
+│ First Layer Speed   │ 20mm/s      │ Critical for adhesion    │
+│ Supports            │ None        │ Not needed!              │
+│ Build Plate Adhesion│ Brim (5mm)  │ Prevents warping         │
+│ Nozzle Temp (PLA)   │ 200-220°C   │ Varies by brand          │
+│ Bed Temp (PLA)      │ 50-60°C     │ Good adhesion            │
+└─────────────────────┴─────────────┴──────────────────────────┘
+
+PRINTING PROCESS:
+═══════════════════════════════════════════════════════════════
+
+PHASE 1: BLACK LAYER (0-1mm)
+───────────────────────────────────────────────────────────────
+⏱️  Time: ~15-30 minutes
+
+1. Start the print with BLACK filament loaded
+2. Monitor first layer carefully - must stick well
+3. Let it print until the pause at 1.0mm
+4. Printer will beep and pause automatically
+
+↓↓↓ PAUSE AT 1.0MM ↓↓↓
+
+FILAMENT CHANGE #1: BLACK → RED
+───────────────────────────────────────────────────────────────
+5. Unload BLACK filament:
+   • Heat nozzle to printing temp
+   • Retract filament slowly
+   
+6. Load RED filament:
+   • Insert RED filament
+   • Extrude until pure RED comes out (no black)
+   • Purge at least 50-100mm of filament
+   • Clean nozzle with brass brush if needed
+   
+7. Resume print
+
+PHASE 2: RED LAYER (1-2mm)  
+───────────────────────────────────────────────────────────────
+⏱️  Time: ~15-30 minutes
+
+8. Watch the Bulls logo form in RED
+9. Let it print until the pause at 2.0mm
+10. Printer will beep and pause again
+
+↓↓↓ PAUSE AT 2.0MM ↓↓↓
+
+FILAMENT CHANGE #2: RED → WHITE
+───────────────────────────────────────────────────────────────
+11. Unload RED filament:
+    • Heat nozzle to printing temp
+    • Retract filament slowly
+    
+12. Load WHITE filament:
+    • Insert WHITE filament
+    • Extrude until pure WHITE (no red/pink)
+    • Purge at least 100mm (white shows contamination easily)
+    • Clean nozzle thoroughly
+    
+13. Resume print
+
+PHASE 3: WHITE LAYER (2-3mm)
+───────────────────────────────────────────────────────────────
+⏱️  Time: ~10-20 minutes
+
+14. Watch the "BULLS" text and details form in WHITE
+15. Let print complete
+16. Printer will finish and cool down
+
+TOTAL TIME: 45-90 minutes (depends on settings)
+
+POST-PROCESSING:
+═══════════════════════════════════════════════════════════════
+
+REMOVAL:
+───────────────────────────────────────────────────────────────
+1. Wait for bed to cool (helps with removal)
+2. Use spatula to carefully remove pendant
+3. Remove any brim with craft knife
+
+CLEANUP:
+───────────────────────────────────────────────────────────────
+4. Check chain loop hole - should be clear
+5. If hole is blocked, use 3mm drill bit carefully
+6. Remove any stringing with tweezers or knife
+
+OPTIONAL FINISHING:
+───────────────────────────────────────────────────────────────
+7. Light sanding (220-400 grit) for smoother finish
+8. Clear coat spray for protection and shine
+9. Thread chain through loop
+
+TROUBLESHOOTING:
+═══════════════════════════════════════════════════════════════
+
+❌ PROBLEM: First layer not sticking
+✅ SOLUTION:
+   • Clean bed with isopropyl alcohol
+   • Increase bed temperature by 5°C
+   • Add brim (5-8mm)
+   • Re-level bed
+   • Slow down first layer speed to 15-20mm/s
+
+❌ PROBLEM: Colors bleeding/mixing
+✅ SOLUTION:
+   • Purge MORE filament during changes (100mm+)
+   • Clean nozzle with brass brush between colors
+   • Use purge tower if your slicer supports it
+   • Increase retraction during color change
+
+❌ PROBLEM: Pendant warping/lifting
+✅ SOLUTION:
+   • Use larger brim (8mm)
+   • Increase bed temperature
+   • Ensure no drafts near printer
+   • Use enclosure for ABS
+
+❌ PROBLEM: Layers not aligning
+✅ SOLUTION:
+   • Calibrate Z-axis steps
+   • Check belt tension
+   • Reduce print speed
+   • Enable Z-hop during travels
+
+❌ PROBLEM: Stringing between colors
+✅ SOLUTION:
+   • Increase retraction distance (5-7mm)
+   • Reduce printing temperature by 5°C
+   • Increase retraction speed
+   • Enable combing in slicer
+
+❌ PROBLEM: Weak chain loop
+✅ SOLUTION:
+   • Print at 100% infill
+   • Use 4 wall lines
+   • Switch to PETG or ABS (stronger)
+   • Increase loop thickness in Python script
+
+MATERIAL GUIDE:
+═══════════════════════════════════════════════════════════════
+
+PLA (Recommended for beginners):
+───────────────────────────────────────────────────────────────
+✓ Easy to print
+✓ Vibrant colors available
+✓ Eco-friendly
+✓ Good detail
+✗ Lower heat resistance (don't leave in hot car)
+
+Nozzle: 200-220°C  │  Bed: 50-60°C  │  Difficulty: ⭐
+
+PETG (Recommended for durability):
+───────────────────────────────────────────────────────────────
+✓ Very durable
+✓ Heat resistant
+✓ Flexible/impact resistant
+✓ Food safe (some brands)
+✗ Can string more
+✗ Slightly harder to print
+
+Nozzle: 230-250°C  │  Bed: 70-80°C  │  Difficulty: ⭐⭐
+
+ABS (For maximum strength):
+───────────────────────────────────────────────────────────────
+✓ Very strong
+✓ Heat resistant
+✓ Can be smoothed with acetone
+✗ Requires enclosure
+✗ Fumes/smell
+✗ Can warp
+
+Nozzle: 230-250°C  │  Bed: 90-110°C  │  Difficulty: ⭐⭐⭐
+
+FILAMENT BRAND RECOMMENDATIONS:
+═══════════════════════════════════════════════════════════════
+
+Budget-Friendly:
+• Hatchbox PLA (True Red, True Black, True White)
+• eSun PLA+ (Fire Engine Red, Black, White)
+
+Premium:
+• Prusament PLA (Prusa Red, Jet Black, White)
+• Polymaker PolyLite PLA (True Red, True Black, True White)
+• ColorFabb (extensive color range)
+
+WEARING YOUR PENDANT:
+═══════════════════════════════════════════════════════════════
+
+CHAIN SELECTION:
+───────────────────────────────────────────────────────────────
+• Maximum chain thickness: 2.5mm (fits through 3mm hole)
+• Recommended styles: Box chain, rope chain, snake chain
+• Recommended length: 18-24 inches
+
+CARE:
+───────────────────────────────────────────────────────────────
+• PLA: Keep away from heat sources (melts at ~60°C/140°F)
+• PETG/ABS: Safe for normal wear, heat resistant
+• Clean with damp cloth only
+• Avoid harsh chemicals or solvents
+• Store away from direct sunlight
+
+SAFETY:
+───────────────────────────────────────────────────────────────
+⚠️  PLA Warning: Do not leave in hot cars or direct sunlight
+⚠️  Chain Safety: Ensure chain is properly secured
+⚠️  Not for children under 3 (choking hazard)
+
+DESIGN CREDITS:
+═══════════════════════════════════════════════════════════════
+Design: Bulls Basketball Chicago Chain Pendant
+Created: 2025
+Software: Python + Trimesh + Manifold3D
+Format: STL Binary
+License: Personal use
+
+Note: Chicago Bulls logo and name are trademarks of the 
+Chicago Bulls organization. This is a fan-made design.
+
+═══════════════════════════════════════════════════════════════
+                    HAPPY PRINTING! 🏀
+═══════════════════════════════════════════════════════════════
