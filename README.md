@@ -57,7 +57,7 @@ python3 generate_keychain_final.py
 ### Requirements
 
 ```bash
-pip install trimesh numpy manifold3d
+pip install trimesh manifold3d
 ```
 
 ## Design Features

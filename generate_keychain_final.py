@@ -6,7 +6,6 @@ This version creates a clean, printable keychain design optimized for FDM/resin 
 """
 
 import trimesh
-import numpy as np
 
 
 def create_austin_keychain_final():
@@ -65,8 +64,8 @@ def create_austin_keychain_final():
     # Letter A (x_pos)
     text_blocks.append(add_block(x_pos, 0, stroke_width, text_height))  # Left vertical
     text_blocks.append(add_block(x_pos + 3, 0, stroke_width, text_height))  # Right vertical
-    text_blocks.append(add_block(x_pos, text_height/2 - stroke_width/2, 4.2, stroke_width))  # Top bar
-    text_blocks.append(add_block(x_pos, 0, 4.2, stroke_width))  # Middle bar
+    text_blocks.append(add_block(x_pos, text_height/2 - stroke_width/2, 4.2, stroke_width))  # Top horizontal
+    text_blocks.append(add_block(x_pos, text_height/4 - stroke_width/2, 4.2, stroke_width))  # Middle crossbar
     x_pos += letter_spacing
     
     # Letter U
@@ -79,8 +78,8 @@ def create_austin_keychain_final():
     text_blocks.append(add_block(x_pos, text_height/2 - stroke_width/2, 3.5, stroke_width))  # Top bar
     text_blocks.append(add_block(x_pos, 0, 3.5, stroke_width))  # Middle bar
     text_blocks.append(add_block(x_pos, -text_height/2 + stroke_width/2, 3.5, stroke_width))  # Bottom bar
-    text_blocks.append(add_block(x_pos, text_height/4, stroke_width, text_height/2))  # Top-left vertical
-    text_blocks.append(add_block(x_pos + 3, -text_height/4, stroke_width, text_height/2))  # Bottom-right vertical
+    text_blocks.append(add_block(x_pos, text_height/4 - stroke_width/4, stroke_width, text_height/4 + stroke_width))  # Top-left vertical connecting to top and middle bars
+    text_blocks.append(add_block(x_pos + 2.8, -text_height/4 + stroke_width/4, stroke_width, text_height/4 + stroke_width))  # Bottom-right vertical connecting to middle and bottom bars
     x_pos += letter_spacing
     
     # Letter T
@@ -95,7 +94,10 @@ def create_austin_keychain_final():
     # Letter N
     text_blocks.append(add_block(x_pos, 0, stroke_width, text_height))  # Left vertical
     text_blocks.append(add_block(x_pos + 3, 0, stroke_width, text_height))  # Right vertical
-    text_blocks.append(add_block(x_pos + 1.5, text_height/3, stroke_width * 1.5, text_height/3))  # Middle diagonal part
+    # Diagonal approximated with multiple small blocks
+    text_blocks.append(add_block(x_pos + 0.7, text_height/3, stroke_width, text_height/3.5))  # Upper diagonal segment
+    text_blocks.append(add_block(x_pos + 1.5, 0, stroke_width, text_height/3.5))  # Middle diagonal segment
+    text_blocks.append(add_block(x_pos + 2.3, -text_height/3, stroke_width, text_height/3.5))  # Lower diagonal segment
     
     print(f"✓ Created 'AUSTIN' text with {len(text_blocks)} components")
     
